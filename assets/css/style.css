@@ -1,0 +1,103 @@
+/*body {
+    font-family: 'Roboto Mono', monospace;
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+}
+
+header{
+    height: 8vh;
+    display: flex;
+    gap: 3em;
+    justify-content: space-between;
+    margin: 0 2em;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav a{
+    display: flex;
+    gap: 1em;
+}
+
+header nav a p{
+    font-size: 1.5em;
+}
+
+nav{
+    display: flex;
+    align-items: flex-end;
+    gap: 3em;
+}
+
+
+main{
+    background-color: #d0dfdc;
+    height: 92vh;
+}
+
+main h1{
+    font-size: 1.5em;
+    padding: 2em 0 1em 4em;
+}
+
+main section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+main section article{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    width: 340px;
+    height: 225px;
+    background: url(../img/ring001.png) no-repeat center/cover;
+    d
+}
+
+article:nth-of-type(2){
+    background: url(../img/ring002.png) no-repeat center/cover;
+}
+
+article:nth-of-type(3){
+    background: url(../img/ring003.png) no-repeat center/cover;
+}
+
+article:nth-of-type(4){
+    background: url(../img/ring004.png) no-repeat center/cover;
+}
+
+article:nth-of-type(5){
+    background: url(../img/ring005.png) no-repeat center/cover;
+}
+
+article:nth-of-type(6){
+    background: url(../img/ring006.png) no-repeat center/cover;
+}
+article p{
+    padding: .5em;
+    color: rgba(0,0,0,.8);
+}
